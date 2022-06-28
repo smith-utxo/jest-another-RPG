@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "RPG-Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smith-utxo/jest-another-RPG.git"
+  },
+  "author": "Adam Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smith-utxo/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/smith-utxo/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
