@@ -92,6 +92,21 @@ test('uses a potion from inventory', () => {
   expect(player.inventory.length).toBeLessThan(oldCount);
 });
 
+test("subtracts from player's health", () => {
+  const player = new Player('Dave');
+  const oldHealth = player.health; 
+
+  player.reduceHealth(5); 
+
+  expect(player.health).toBe(oldHealth - 5);
+
+  player.reduceHealth(99999);
+
+  expect(player.health).toBe(0); 
+})
+
+
+
 module.exports = function() {
   this.name = 'health';
   this.value = 20; 
